@@ -3,14 +3,19 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
       <title>Quiz-box</title>
    </head>
    <body>
      <div class="wrapper">
+      <div class="container">
         <header class="header">
            <div class="logo">
               <a href="#" class="logo__link">
-                 <img src="" alt="Логотип" class="logo__icon">
+                 <img src="./img/quiz-box.png" alt="Quiz-box" class="logo__icon">
               </a>
            </div>
            <nav class="menu">
@@ -44,22 +49,22 @@
           <div class="new-week">
              <div class="new-week__title">
                <h2 class="new-week__title-text">Новинки недели</h2>
-               <img src="" alt="Картинка новинки" class="new-week__title-icon">
+               <img src="./img/new.png" alt="Картинка новинки" class="new-week__title-icon">
              </div>
              <ul class="new-week__list">
                 <li class="new-week__item">
                    <div class="new-week__image">
-                      <img src="" alt="Картинка игра" class="new-week__picture">
+                      <img src="./img/music.png" alt="Музыкальная игра" class="new-week__picture">
                    </div>
                    <div class="new-week__content">
                       <h3 class="new-week__subtitle">Музыкальная игра</h3>
                       <div class="new-week__options">
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/Group.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">90 минут</span>
                          </div>
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/qa.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">70 вопросов</span>
                          </div>
                       </div>
@@ -70,23 +75,23 @@
                          </p>
                       </div>
                       <div class="new-week__button">
-                         <button class="button">Смотреть</button>
+                         <button class="button button--border button--new">Смотреть</button>
                       </div>
                    </div>
                 </li>
                 <li class="new-week__item">
                    <div class="new-week__image">
-                      <img src="" alt="Картинка 90-е" class="new-week__picture">
+                      <img src="./img/90.png" alt="90-е" class="new-week__picture">
                    </div>
                    <div class="new-week__content">
                       <h3 class="new-week__subtitle">Назад в 90-е</h3>
                       <div class="new-week__options">
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/Group.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">90 минут</span>
                          </div>
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/qa.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">70 вопросов</span>
                          </div>
                       </div>
@@ -97,23 +102,23 @@
                          </p>
                       </div>
                       <div class="new-week__button">
-                         <button class="button">Смотреть</button>
+                         <button class="button button--new">Смотреть</button>
                       </div>
                    </div>
                 </li>
                 <li class="new-week__item">
                    <div class="new-week__image">
-                      <img src="" alt="Картинка викторина" class="new-week__picture">
+                      <img src="./img/quiz.png" alt="Картинка викторина" class="new-week__picture">
                    </div>
                    <div class="new-week__content">
                       <h3 class="new-week__subtitle">IT-викторина</h3>
                       <div class="new-week__options">
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/Group.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">90 минут</span>
                          </div>
                          <div class="new-week__options-item">
-                            <img src="" alt="Иконка опции" class="new-week__options-icon">
+                            <img src="./img/qa.png" alt="Иконка опции" class="new-week__options-icon">
                             <span class="new-week__options-text">70 вопросов</span>
                          </div>
                       </div>
@@ -124,7 +129,7 @@
                          </p>
                       </div>
                       <div class="new-week__button">
-                         <button class="button">Смотреть</button>
+                         <button class="button button--border button--new">Смотреть</button>
                       </div>
                    </div>
                 </li>
@@ -134,7 +139,7 @@
             <h2 class="past-games__title">Прошедшие игры</h2>
             <ul class="past-games__list">
                <li class="past-games__item">
-                  <img src="" alt="Картинка квиз" class="past-games__image">
+                  <img src="./img/news1.png" alt="Новогодний квиз" class="past-games__image">
                   <div class="past-games__content">
                      <time class="past-games__date">1 января</time>
                      <h3 class="past-games__subtitle">Новогодний квиз</h3>
@@ -144,7 +149,7 @@
                   </div>
                </li>
                <li class="past-games__item">
-                  <img src="" alt="Картинка игра" class="past-games__image">
+                  <img src="./img/news2.png" alt="Весенняя игра" class="past-games__image">
                   <div class="past-games__content">
                      <time class="past-games__date">8 марта</time>
                      <h3 class="past-games__subtitle">Весенняя игра</h3>
@@ -184,7 +189,7 @@
             </div>
           </div>
           <div class="about">
-            <img src="" alt="Картинка о нас" class="about__image">
+            <img src="./img/about.png" alt="О нас" class="about__image">
             <div class="about__content">
                <h2 class="about__title">О нас</h2>
                <div class="about__text">
@@ -196,7 +201,7 @@
                   </p>
                </div>
                <div class="about__button">
-                  <button class="button">Подробнее</button>
+                  <button class="button button--about">Подробнее</button>
                </div>
             </div>
           </div>
@@ -204,42 +209,42 @@
         <footer class="footer">
          <div class="logo">
             <a href="#" class="logo__link">
-               <img src="" alt="Логотип" class="logo__icon">
+               <img src="./img/Quiz-box.png" alt="Логотип" class="logo__icon">
             </a>
          </div>
          <nav class="menu">
             <ul class="menu__list">
                <li class="menu__item">
-                  <a href="#" class="menu_link">Главная</a>
+                  <a href="#" class="menu__link">Главная</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu_link">Игры</a>
+                  <a href="#" class="menu__link">Игры</a>
                </li>
                <li class="menu__item">
-                  <a href="#" class="menu_link">Отзывы</a>
+                  <a href="#" class="menu__link">Отзывы</a>
                </li> 
             </ul>
          </nav>
          <div class="social">
-            <ul class="social__lst">
+            <ul class="social__list">
                <li class="social__item">
                   <a href="#" class="social__link">
-                     <img src="" alt="иконка телеграмм" class="social__icon">
+                     <img src="./img/t.png" alt="Телеграмм" class="social__icon">
                   </a>
                </li>
                <li class="social__item">
                   <a href="#" class="social__link">
-                     <img src="" alt="иконка вконтакте" class="social__icon">
+                     <img src="./img/vk.png" alt="Вконтакте" class="social__icon">
                   </a>
                </li>
                <li class="social__item">
                   <a href="#" class="social__link">
-                     <img src="" alt="иконка фейсбук" class="social__icon">
+                     <img src="./img/f.png" alt="Фейсбук" class="social__icon">
                   </a>
                </li>
                <li class="social__item">
                   <a href="#" class="social__link">
-                     <img src="" alt="иконка инстаграмм" class="social__icon">
+                     <img src="./img/in.png" alt="Инстаграмм" class="social__icon">
                   </a>
                </li>
             </ul>
@@ -249,6 +254,7 @@
             <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
          </address>
         </footer>
+      </div>
      </div>
    </body>
 </html>

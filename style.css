@@ -1,0 +1,380 @@
+* {
+    block-size: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: #17191C;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.wrapper {
+    background: url(./img/background.png) center top no-repeat, url(./img/background2.png) center bottom 150px no-repeat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 150px;
+}
+
+.logo, .menu, .contacts {
+    position: absolute;
+}
+
+.logo {
+    display: block;
+    top: 34px;
+    left: 0;
+}
+
+.menu {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.menu__link:hover {
+    color: #8F00FF;
+    ;
+}
+
+.contacts {
+    right: 0;
+    top: 27px;
+    text-align: right;
+}
+
+.contacts__tel {
+    display: block;
+    font-size: 26px;
+}
+
+.contacts__graph {
+    display: block;
+    font-size: 13px;
+}
+
+.contacts__text {
+    font-size: 11px ;
+}
+
+.preview {
+    position: relative;
+    width: 637px;
+    height: 373px;
+    margin-top: 59px;
+}
+
+.preview__title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.preview__text {
+    font-size: 21px;
+    margin-top: 21px;
+}
+
+.preview__button {
+    position: absolute;
+    bottom: 0;
+}
+
+.button {
+    background:#8F00FF;
+    border-radius: 5px;
+    width: 168px;
+    height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button--new {
+    width: 135px;
+}
+
+.button--border {
+    background: transparent;
+    border-color: #8F00FF;
+    color: #8F00FF;
+}
+
+.button--about {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button:hover {
+    background: #741BBA;
+}
+
+.button--border:hover {
+    color: #fff;
+}
+
+.new-week {
+    margin-top: 193px;
+}
+
+.new-week__title {
+ position: relative;
+ height: 49px;
+ width: 380px;
+ margin-bottom: 51px;
+}
+
+.new-week__title-text {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    bottom: 5px;
+}
+
+.new-week__title-icon {
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+
+.new-week__item {
+    display: inline-block;
+    width: 359px;
+    margin-right: 27px;
+    min-height: 450px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.new-week__item:last-child {
+    margin-right: 0;
+}
+
+.new-week__image {
+    min-height: 144px;
+}
+
+.new-week__content {
+    padding: 26px 24px;
+}
+
+.new-week__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.new-week__options-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    width: 110px;
+}
+
+.new-week__options-text {
+    position: absolute;
+    bottom: 7px;
+    left: 35px;
+}
+
+.new-week__text {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.past-games {
+    margin-top: 127px;
+}
+
+.past-games__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+}
+
+.past-games__item {
+    display: inline-block;
+    width: 555px;
+    height: 394px;
+    margin-right: 25px;
+    position: relative;
+
+}
+
+.past-games__item:last-child {
+    margin-right: 0;
+}
+
+.past-games__content {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 30px;
+}
+
+.past-games__date {
+    font-size: 14px;
+}
+
+.past-games__subtitle {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.past-games__text {
+    margin-top: 5px;
+}
+
+.paginator {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.paginator__display, .paginator__list, .paginator__item  {
+    display: inline-block;
+}
+.paginator__list {
+    margin-left: 25px;
+}
+
+.paginator__link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: .4s;
+}
+
+.paginator__link:hover {
+    color: #fff;
+    background: #8F00FF;
+}
+
+.about {
+    margin-top: 145px;
+}
+
+.about__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 489px;
+    height: 505px;
+}
+
+.about__content {
+    background: linear-gradient(60deg , #8F00FF, #148CFF );
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 202px 66px 81px; 
+    width: 499px;
+    height: 319px;
+    border-radius: 5px;
+    margin-left: -136px;
+    margin-top: 97px;
+
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about__text {
+    margin-top: 37px;
+    width: 502px;
+}
+
+.about__button {
+    margin-top: 70px;
+
+}
+
+.footer {
+    margin-top: 53px;
+    height: 150px;
+    border-top: 1px solid rgb(255 255 255 / 0.1) ;
+    position: relative;
+}
+
+.footer .logo {
+    top: 50px;
+}
+
+.footer .menu {
+    top: 55px;
+    left: 470px;
+}
+
+.social {
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.footer .contacts {
+    top: 50px;
+}
