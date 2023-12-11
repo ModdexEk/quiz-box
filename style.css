@@ -1,5 +1,5 @@
 * {
-    block-size: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -70,6 +70,10 @@ button {
     margin-right: 65px;
 }
 
+.menu__item:last-child{
+    margin-right: 0;
+}
+
 .menu__link:hover {
     color: #8F00FF;
     ;
@@ -114,8 +118,7 @@ button {
 }
 
 .preview__button {
-    position: absolute;
-    bottom: 0;
+    margin-top: 76px;
 }
 
 .button {
@@ -159,9 +162,6 @@ button {
 }
 
 .new-week__title {
- position: relative;
- height: 49px;
- width: 380px;
  margin-bottom: 51px;
 }
 
@@ -173,9 +173,7 @@ button {
 }
 
 .new-week__title-icon {
-    position: absolute;
-    top: 6px;
-    right: 5px;
+    margin-left: 10px;
 }
 
 .new-week__item {
@@ -206,12 +204,15 @@ button {
     margin-bottom: 21px;
 }
 
+.new-week__options {
+    margin-bottom: 20px;
+}
+
 .new-week__options-item {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    padding-right: 40px;
-    margin-bottom: 20px;
+    padding-right: 140px;
     width: 110px;
 }
 
@@ -314,8 +315,8 @@ button {
     display: inline-block;
     vertical-align: top;
     padding: 70px 202px 66px 81px; 
-    width: 499px;
-    height: 319px;
+    width: 782px;
+    height: 455px;
     border-radius: 5px;
     margin-left: -136px;
     margin-top: 97px;
@@ -350,7 +351,7 @@ button {
 
 .footer .menu {
     top: 55px;
-    left: 470px;
+    left: 390px;
 }
 
 .social {
