@@ -118,8 +118,7 @@ button {
 }
 
 .preview__button {
-    position: absolute;
-    bottom: 0;
+    margin-top: 76px;
 }
 
 .button {
