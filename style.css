@@ -45,24 +45,17 @@ button {
 }
 
 .header {
-    position: relative;
-    height: 150px;
-}
-
-.logo, .menu, .contacts {
-    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
-    display: block;
-    top: 34px;
-    left: 0;
+    margin-top: 34px;
 }
 
 .menu {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 40px;
+    margin-top: 34px;
 }
 
 .menu__item {
@@ -80,9 +73,8 @@ button {
 }
 
 .contacts {
-    right: 0;
-    top: 27px;
     text-align: right;
+    margin-top: 27px;
 }
 
 .contacts__tel {
@@ -178,9 +170,11 @@ button {
     vertical-align: bottom;
 }
 
+.new-week__list {
+    display: flex;
+}
+
 .new-week__item {
-    display: inline-block;
-    width: 359px;
     margin-right: 27px;
     min-height: 450px;
     color: #000;
@@ -239,12 +233,18 @@ button {
     margin-bottom: 51px;
 }
 
+.past-games__list {
+    display: flex;
+}
+
 .past-games__item {
-    display: inline-block;
-    width: 555px;
+    /*display: inline-block;
+    width: 555px;*/
     height: 394px;
     margin-right: 25px;
-    position: relative;
+    flex: 1;
+    display: flex;
+    /*position: relative;*/
 
 }
 
@@ -253,7 +253,7 @@ button {
 }
 
 .past-games__content {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     padding: 30px 30px;
 }
