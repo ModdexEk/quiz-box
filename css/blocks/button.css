@@ -1,0 +1,35 @@
+.button {
+    background:#8F00FF;
+    border-radius: 5px;
+    width: 168px;
+    height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button--new {
+    width: 135px;
+}
+
+.button--border {
+    background: transparent;
+    border-color: #8F00FF;
+    color: #8F00FF;
+}
+
+.button--about {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button:hover {
+    background: #741BBA;
+}
+
+.button--border:hover {
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+.about {
+    margin-top: 145px;
+    display: flex;
+}
+
+.about__image {
+    width: 489px;
+    height: 505px;
+    display: block;
+}
+
+.about__content {
+    background: linear-gradient(60deg , #8F00FF, #148CFF );
+    padding: 70px 202px 66px 81px; 
+    max-width: 782px;
+    height: 455px;
+    border-radius: 5px;
+    margin-left: -136px;
+    margin-top: 97px;
+
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about__text {
+    margin-top: 37px;
+    width: 502px;
+}
+
+.about__button {
+    margin-top: 70px;
+
+}

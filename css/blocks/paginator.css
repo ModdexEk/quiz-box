@@ -1,0 +1,38 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.paginator__game {
+    margin-top: 25px;
+}
+
+.paginator__item {
+    text-align: center;
+}
+
+.paginator__list {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.paginator__link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: .4s;
+}
+
+.paginator__link:hover {
+    color: #fff;
+    background: #8F00FF;
+}

@@ -1,0 +1,33 @@
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game-footer {
+    margin-top: auto;
+}
+
+.footer-container__section {
+    height: 150px;
+    margin-top: 53px;
+    border-top: 1px solid rgb(255 255 255 / 0.1);
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.game-footer__container {
+    padding: 20px 0;
+}
+
+.footer__col--right {
+   justify-content: flex-end;
+}
+
+.footer .menu {
+    margin-left: 130px;
+}

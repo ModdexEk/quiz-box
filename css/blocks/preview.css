@@ -1,0 +1,21 @@
+.preview {
+    position: relative;
+    width: 637px;
+    height: 373px;
+    margin-top: 130px;
+}
+
+.preview__title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.preview__text {
+    font-size: 21px;
+    margin-top: 21px;
+}
+
+.preview__button {
+    margin-top: 76px;
+}

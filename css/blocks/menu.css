@@ -1,0 +1,17 @@
+.menu {
+    margin-top: 34px;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    color: #8F00FF;
+    ;
+}

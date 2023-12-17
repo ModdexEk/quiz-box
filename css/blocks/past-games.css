@@ -1,0 +1,52 @@
+.past-games {
+    margin-top: 127px;
+}
+
+.past-games__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+}
+
+.past-games__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.past-games__item {
+    display: inline-block;
+    height: 394px;
+    margin-right: 25px;
+    flex: 1;   
+
+}
+
+.single-games {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.past-games__item:last-child {
+    margin-right: 0;
+}
+
+.past-games__content {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 30px;
+}
+
+.past-games__date {
+    font-size: 14px;
+}
+
+.past-games__subtitle {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.past-games__text {
+    margin-top: 5px;
+}
