@@ -1,1 +1,20 @@
-
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./blocks/about.css');
+@import url('./blocks/button.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/new-week.css');
+@import url('./blocks/paginator.css');
+@import url('./blocks/past-games.css');
+@import url('./blocks/preview.css');
+@import url('./blocks/social.css');
+@import url('./blocks/games.css');
+@import url('./blocks/top-line.css');
+@import url('./blocks/partner.css');
+@import url('./blocks/page-content.css');
+@import url('./blocks/breadcrumbs.css');
