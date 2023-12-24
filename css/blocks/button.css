@@ -8,6 +8,7 @@
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
+    transition: .4s;
 }
 
 .button--new {
@@ -18,6 +19,11 @@
     background: transparent;
     border-color: #8F00FF;
     color: #8F00FF;
+}
+
+.button--gray {
+    background: #8E8E8E;
+    color: #fff;
 }
 
 .button--about {
@@ -32,4 +38,16 @@
 
 .button--border:hover {
     color: #fff;
+}
+
+.button--gray:hover {
+    background: #2B2B2B;
+}
+
+.form__button {
+    margin-right: 17px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
 }
