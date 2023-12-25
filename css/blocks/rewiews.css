@@ -35,7 +35,7 @@
 }
 
 .rewiew__user:after {
-    content:url(../img/vk-blue.png);
+    content:url(../../img/vk-blue.png);
     padding: 0 0 0 5px;
 }
 
