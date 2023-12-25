@@ -48,3 +48,7 @@ button {
     display: block;
     max-width: 100%;
 }
+
+.page-content {
+    padding-top: 98px;
+}
