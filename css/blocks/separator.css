@@ -1,0 +1,22 @@
+.separator {
+    background: #17191C;
+    min-height: 363px;
+}
+
+.separator__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.separator__title {
+    min-width: 383px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.separator__image {
+    margin-left: 220px;
+}

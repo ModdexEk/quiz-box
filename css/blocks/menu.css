@@ -1,6 +1,4 @@
-/*.menu {
-    margin-top: 34px;
-}*/
+
 
 .menu__item {
     display: inline-block;
@@ -13,5 +11,9 @@
 
 .menu__link:hover {
     color: #8F00FF;
-    ;
+
+}
+
+.menu__link:active {
+    color: #8F00FF;
 }

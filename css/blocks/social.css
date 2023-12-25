@@ -18,3 +18,57 @@
     width: 36px;
     height: 36px;
 }
+
+.icon {
+    width: 36px;
+    height: 36px; 
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+ }
+ 
+ .icon:after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 36px; height: 36px;
+ }
+ 
+ .icon.icon__tg:after {
+     background: url(../../img/css_sprites.png) -122px -10px;    
+ }
+ 
+ .icon.icon__tg:hover:after {
+     background-position:  -402px -10px;
+     cursor: pointer;
+ }
+ 
+ .icon.icon__vk:after {
+     background: url(../../img/css_sprites.png) -178px -10px;   
+ }
+ 
+ .icon.icon__vk:hover:after {
+     background-position:  -234px -10px;
+     cursor: pointer;
+ }
+ 
+ .icon.icon__fb:after {
+     background: url(../../img/css_sprites.png) -10px -10px;   
+ }
+ 
+ .icon.icon__fb:hover:after {
+     background-position:  -290px -10px;
+     cursor: pointer;
+ }
+ 
+ .icon.icon__in:after {
+     background: url(../../img/css_sprites.png) -66px -10px;  
+ }
+ 
+ .icon.icon__in:hover:after {
+     background-position:  -346px -10px;
+     cursor: pointer;
+ }
