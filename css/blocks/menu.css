@@ -17,3 +17,7 @@
 .menu__link:active {
     color: #8F00FF;
 }
+
+.menu__link--on {
+    color: #8F00FF;
+}
